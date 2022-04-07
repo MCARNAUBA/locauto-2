@@ -18,8 +18,8 @@ Class Reservas
 		// conexão com a base de dados MySql 
 		$host = "us-cdbr-east-05.cleardb.net";
 		$usuario = "b9ea8c37c9f80b";
-		$senha = "24f00a8e";
-		$bd = "heroku_8c92769b4870240";
+		$senha = "16c40707";
+		$bd = "heroku_4dc9c3f45f1604f";
 		$this->con = mysqli_connect($host, $usuario, $senha, $bd);
 		return $this->con;
 	}
